@@ -1,0 +1,52 @@
+:root {
+  --time-component-color: linear-gradient(314.28deg, #304577 0%, #4C65A0 83%);
+  --time-component-border-color: #354971;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.time-section {
+  margin: 33px 0 44px;
+}
+
+.time-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+
+.time-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-detail .time-el {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  font-family: 'Pretendard-Bold';
+  font-size: 40px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--time-component-color);
+  box-sizing: border-box;
+  border: 1px solid var(--time-component-border-color);
+  border-radius: 4px;
+}

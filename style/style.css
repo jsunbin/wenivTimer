@@ -1,0 +1,45 @@
+:root {
+  --bg-color: radial-gradient(96.74% 276.79% at 3.59% 5.28%, #F0F4FF 0%, #A5B6EE 100%);
+  --timer-bg-color: linear-gradient(144.07deg, #5572BB 2.13%, #374B7C 102.97%);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  background: var(--bg-color);
+}
+
+
+.logo {
+  text-align: center;
+  margin-top: 72px;
+}
+
+
+.timer {
+  margin: 0 auto;
+  width: 400px;
+  height: 360px;
+  padding: 0 44px;
+  box-sizing: border-box;
+  background: var(--timer-bg-color);
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+  border-radius: 16px;
+}
+
+.timer-header {
+  padding: 48px 0 23px;
+  text-align: center;
+  border-bottom: 1px solid #3D538A;
+}
+
+.button-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}

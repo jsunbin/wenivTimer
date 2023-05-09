@@ -1,0 +1,54 @@
+:root {
+  --start-btn-color: #5180FF;
+  --pause-btn-color: #15C2B8;
+  --reset-btn-color: #FB7099;
+  --disabled-btn-color: #324577;
+}
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pretendard-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  /* font-family: 'Pretendard-Bold'; */
+}
+
+button {
+  width: 112px;
+  height: 48px;
+  font-family: 'Pretendard-Bold';
+  font-size: 14px;
+  color: #fff;
+  line-height: 17px;
+  border: none;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.start-btn {
+  background-color: var(--start-btn-color);
+}
+.pause-btn {
+  background-color: var(--pause-btn-color);
+}
+.reset-btn {
+  background-color: var(--reset-btn-color);
+}
+button img {
+  margin-right: 6px;
+  vertical-align: top;
+}
+button.disabled {
+  color: #617199; 
+  background-color: var(--disabled-btn-color);
+}
